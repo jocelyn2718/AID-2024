@@ -1,10 +1,10 @@
 #!/bin/bash
 
 path="/var/log/"
-w="Jocelyn_Alfaro"
+w="sh"
 
 cd "$path"
-for file in message
+for file in *
 do 
 #	echo "$file"
 #	cat "$file" | grep -i "$w"
